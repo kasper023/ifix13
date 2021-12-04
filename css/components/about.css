@@ -49,6 +49,13 @@
 .about__par {
     margin-bottom: 40px;
 }
+ul.about__par {
+    list-style: circle;
+    text-align: left;
+}
+ul.about__par li {
+    margin-bottom: 10px;
+}
 
 @media screen and (max-width: 1400px) {
     .about__inforow {
@@ -149,7 +156,7 @@
     }
 
     .about__text {
-        text-align: justify;
+        text-align: left;
     }
 
     .about__link {
